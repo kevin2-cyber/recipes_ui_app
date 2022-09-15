@@ -20,9 +20,9 @@ class _RecipesPageState extends State<RecipesPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   title: const Text('Dessert Recipes'),
-      // ),
+      appBar: AppBar(
+        title: const Text('Dessert Recipes'),
+      ),
       body: NotificationListener<UserScrollNotification>(
         onNotification: (UserScrollNotification notification) {
           if (notification.direction == ScrollDirection.forward ||
