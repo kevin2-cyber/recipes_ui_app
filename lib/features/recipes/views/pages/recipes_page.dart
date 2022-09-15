@@ -6,6 +6,8 @@ import 'package:recipes_ui/features/recipes/recipes_layout.dart';
 import 'package:recipes_ui/features/recipes/views/widgets/recipe_list_item.dart';
 import 'package:recipes_ui/features/recipes/views/widgets/recipe_list_item_wrapper.dart';
 
+import '../../../../core/styles/app_text_styles.dart';
+
 class RecipesPage extends StatefulWidget {
   const RecipesPage({Key? key}) : super(key: key);
 
@@ -21,7 +23,11 @@ class _RecipesPageState extends State<RecipesPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Dessert Recipes'),
+        title: Text(
+            'Dessert Recipes',
+          style: AppTextStyles.h4,
+        ),
+        elevation: 0.1,
       ),
       body: NotificationListener<UserScrollNotification>(
         onNotification: (UserScrollNotification notification) {
