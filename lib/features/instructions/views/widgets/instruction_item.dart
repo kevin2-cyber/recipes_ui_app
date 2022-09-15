@@ -48,7 +48,7 @@ class InstructionItem extends StatelessWidget {
                 angle: -0.3,
                 child: Text(
                   '${index + 1}',
-                  style: Theme.of(context).textTheme.headline3,
+                  style: Theme.of(context).textTheme.displaySmall,
                 ),
               ),
             ),
@@ -60,7 +60,7 @@ class InstructionItem extends StatelessWidget {
                 recipe.instructions[index],
                 style: Theme.of(context)
                     .textTheme
-                    .bodyText1!
+                    .bodyLarge!
                     .copyWith(height: 1.7),
               ),
             ),

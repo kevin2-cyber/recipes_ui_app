@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:recipes_ui/core/styles/app_colors.dart';
 
@@ -75,7 +74,7 @@ class _AppBarLeadingState extends State<AppBarLeading>
                   padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: Text(
                     widget.text!,
-                    style: Theme.of(context).textTheme.subtitle2!.copyWith(
+                    style: Theme.of(context).textTheme.titleMedium!.copyWith(
                           color:
                               AppColors.textColorFromBackground(widget.bgColor),
                         ),

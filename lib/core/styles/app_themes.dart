@@ -19,28 +19,28 @@ class AppThemes {
           : AppColors.black.withOpacity(0.2),
       cardColor: isDark ? AppColors.blackLight : AppColors.white,
       textTheme: TextTheme(
-        headline1: AppTextStyles.h1.copyWith(
+        displayLarge: AppTextStyles.h1.copyWith(
           color: isDark ? AppColors.white : AppColors.black,
         ),
-        headline2: AppTextStyles.h2.copyWith(
+        displayMedium: AppTextStyles.h2.copyWith(
           color: isDark ? AppColors.white : AppColors.black,
         ),
-        headline3: AppTextStyles.h3.copyWith(
+        displaySmall: AppTextStyles.h3.copyWith(
           color: isDark ? AppColors.white : AppColors.black,
         ),
-        headline4: AppTextStyles.h4.copyWith(
+        headlineMedium: AppTextStyles.h4.copyWith(
           color: isDark ? AppColors.white : AppColors.black,
         ),
-        headline5: AppTextStyles.h5.copyWith(
+        headlineSmall: AppTextStyles.h5.copyWith(
           color: isDark ? AppColors.white : AppColors.black,
         ),
-        bodyText1: AppTextStyles.bodyLg.copyWith(
+        bodyLarge: AppTextStyles.bodyLg.copyWith(
           color: isDark ? AppColors.white : AppColors.black,
         ),
-        bodyText2: AppTextStyles.body.copyWith(
+        bodyMedium: AppTextStyles.body.copyWith(
           color: isDark ? AppColors.white : AppColors.black,
         ),
-        subtitle1: AppTextStyles.bodySm.copyWith(
+        titleMedium: AppTextStyles.bodySm.copyWith(
           color: isDark ? AppColors.white : AppColors.black,
         ),
       ),

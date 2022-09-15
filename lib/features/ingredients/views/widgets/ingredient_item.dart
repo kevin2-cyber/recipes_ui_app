@@ -63,7 +63,7 @@ class IngredientItem extends StatelessWidget {
                   padding: const EdgeInsets.all(10),
                   child: Text(
                     ingredient,
-                    style: Theme.of(context).textTheme.bodyText2!,
+                    style: Theme.of(context).textTheme.bodyMedium!,
                   ),
                 ),
               ),
