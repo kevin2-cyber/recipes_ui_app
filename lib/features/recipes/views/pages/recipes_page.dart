@@ -28,7 +28,7 @@ class _RecipesPageState extends State<RecipesPage> {
             'Dessert Recipes',
           style: AppTextStyles.h4,
         ),
-        elevation: 0.1,
+        elevation: 0.3,
       ),
       body: NotificationListener<UserScrollNotification>(
         onNotification: (UserScrollNotification notification) {
