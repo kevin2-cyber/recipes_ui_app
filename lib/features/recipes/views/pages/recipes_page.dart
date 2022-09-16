@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:recipes_ui/core/enums/screen_size.dart';
 import 'package:recipes_ui/features/recipes/recipes_data.dart';
 import 'package:recipes_ui/features/recipes/recipes_layout.dart';
 import 'package:recipes_ui/features/recipes/views/widgets/recipe_list_item.dart';
 import 'package:recipes_ui/features/recipes/views/widgets/recipe_list_item_wrapper.dart';
+
+import '../../../../core/styles/app_text_styles.dart';
 
 
 class RecipesPage extends StatefulWidget {
@@ -25,7 +26,7 @@ class _RecipesPageState extends State<RecipesPage> {
       appBar: AppBar(
         title: Text(
             'Dessert Recipes',
-          style: GoogleFonts.poppins(),
+          style: AppTextStyles.h4,
         ),
         elevation: 0.1,
       ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class AppTextStyles {
   static const String fontFamily = 'Rubik';
@@ -19,8 +20,13 @@ class AppTextStyles {
     fontSize: 30,
   );
 
-  static const TextStyle h4 = TextStyle(
-    fontFamily: fontFamily,
+  // static const TextStyle h4 = TextStyle(
+  //   fontFamily: fontFamily,
+  //   fontSize: 25,
+  //   fontWeight: FontWeight.w500,
+  // );
+
+  static TextStyle h4 = GoogleFonts.poppins(
     fontSize: 25,
     fontWeight: FontWeight.w500,
   );
