@@ -104,7 +104,7 @@ class _RecipePageState extends State<RecipePage> {
                         tag: '__recipe_${widget.recipe.id}_title__',
                         child: Text(
                           widget.recipe.title,
-                          style: Theme.of(context).textTheme.headline4!,
+                          style: Theme.of(context).textTheme.headlineMedium!,
                         ),
                       ),
                       const SizedBox(height: 10),
@@ -112,7 +112,7 @@ class _RecipePageState extends State<RecipePage> {
                         tag: '__recipe_${widget.recipe.id}_description__',
                         child: Text(
                           widget.recipe.description,
-                          style: Theme.of(context).textTheme.bodyText2!,
+                          style: Theme.of(context).textTheme.bodyMedium!,
                         ),
                       ),
                       const SizedBox(height: 20),
@@ -121,7 +121,7 @@ class _RecipePageState extends State<RecipePage> {
                         keepAlive: true,
                         child: Text(
                           'INGREDIENTS',
-                          style: Theme.of(context).textTheme.headline5,
+                          style: Theme.of(context).textTheme.headlineSmall,
                         ),
                       ),
                       IngredientsSection(widget.recipe),
@@ -129,7 +129,7 @@ class _RecipePageState extends State<RecipePage> {
                         keepAlive: true,
                         child: Text(
                           'STEPS',
-                          style: Theme.of(context).textTheme.headline5,
+                          style: Theme.of(context).textTheme.headlineSmall,
                         ),
                       ),
                       InstructionsSection(widget.recipe),

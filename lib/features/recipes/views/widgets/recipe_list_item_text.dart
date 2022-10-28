@@ -32,7 +32,7 @@ class RecipeListItemText extends StatelessWidget {
               tag: '__recipe_${menuItem.id}_title__',
               child: Text(
                 menuItem.title,
-                style: Theme.of(context).textTheme.headline4!.copyWith(
+                style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                       color:
                           AppColors.textColorFromBackground(menuItem.bgColor),
                     ),
@@ -44,7 +44,7 @@ class RecipeListItemText extends StatelessWidget {
                 tag: '__recipe_${menuItem.id}_description__',
                 child: Text(
                   menuItem.description,
-                  style: Theme.of(context).textTheme.subtitle1!.copyWith(
+                  style: Theme.of(context).textTheme.titleMedium!.copyWith(
                         color:
                             AppColors.textColorFromBackground(menuItem.bgColor),
                       ),
